@@ -1,0 +1,8 @@
+function formatArray(arr){
+let a = []
+  for(var i = 0; i < arr.length; i++){
+     a.push(Number(arr[i].toFixed(i)))
+  }
+  return a
+}
+console.log(formatArray([1.345, 2.234, 3.1234, 4.56789]))
