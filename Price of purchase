@@ -1,0 +1,10 @@
+function purchaseValue(values){
+let a = 0;
+  for(let i = 0; i < values.length; i++){
+   a += parseFloat(values[i])
+  }
+  return a
+}
+console.log(purchaseValue(['1.4 milk','2.25 cookies', '10 meat', '4 oil']))
+
+
